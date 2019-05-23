@@ -31,17 +31,17 @@ class LoginInteractorTests: XCTestCase{
     }
 
     func testEmptyLoginTextFields() {
-        XCTAssertFalse(sut.valuesAreEmpty(user: "", password: ""), "The TextFields of login are emoty and the method should return false")
+        XCTAssertFalse(sut.valuesNotEmpty(user: "", password: ""), "Os TextField estão vazios e o resultado será false")
     }
     
 
     func testTestUserLoginType() {
-        XCTAssert(sut.userLoginIsValid(user: loginProperties.cpf), "CPF Valido")
-        XCTAssert(sut.userLoginIsValid(user: loginProperties.email), "E-Mail Vlido")
+        XCTAssert(sut.isValidateUser(user: loginProperties.cpf), "CPF Valido")
+        XCTAssert(sut.isValidateUser(user: loginProperties.email), "E-Mail Vlido")
     }
     
     func testPasswordIsValid() {
-        let testResult = sut.passwordIsValid(password: loginProperties.password)
+        let testResult = sut.isValidatePassword(password: loginProperties.password)
         
         XCTAssertTrue(testResult, "A senha corresponde a todos os requisitos")
     }

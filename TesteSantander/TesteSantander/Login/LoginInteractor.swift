@@ -79,7 +79,7 @@ class LoginInteractor: LoginBusinessLogic, LoginDataStore{
        showAlertPresenterDesencapsuled(title: "Usuário não localizado", message: "Não foi possível localizar o usuário prenchido.")
     }
     
-    private func valuesNotEmpty(user: String, password: String) -> Bool {
+    public func valuesNotEmpty(user: String, password: String) -> Bool {
         if user.isEmpty && password.isEmpty {
             if let presenter = presenter {
                 presenter.showAlert(title: "Dados inválidos", message: "Favor preencher os campos")
@@ -90,7 +90,7 @@ class LoginInteractor: LoginBusinessLogic, LoginDataStore{
         return true
     }
     
-    private func isValidateUser(user: String) -> Bool {
+    public func isValidateUser(user: String) -> Bool {
         if user.isValidCPF() || user.isValidEmail() {
             return true
         }
@@ -100,7 +100,7 @@ class LoginInteractor: LoginBusinessLogic, LoginDataStore{
         return false
     }
     
-    private func isValidatePassword(password: String) -> Bool {
+    public func isValidatePassword(password: String) -> Bool {
         if password.isValidPassword() {
             return true
         }
