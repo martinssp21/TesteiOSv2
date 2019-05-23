@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1FA5171DF9A37EBFDF250B68 /* Pods_TesteSantander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB9EDD7AF954834D2A6D977 /* Pods_TesteSantander.framework */; };
+		4B8C397A2296BFB2005AF377 /* TesteSantanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39792296BFB2005AF377 /* TesteSantanderTests.swift */; };
+		4B8C39922296C188005AF377 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C398E2296C188005AF377 /* LoginViewControllerTests.swift */; };
+		4B8C39932296C188005AF377 /* LoginInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C398F2296C188005AF377 /* LoginInteractorTests.swift */; };
+		4B8C39942296C188005AF377 /* LoginWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39902296C188005AF377 /* LoginWorkerTests.swift */; };
+		4B8C39952296C188005AF377 /* LoginPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39912296C188005AF377 /* LoginPresenterTests.swift */; };
 		A5066FEF227C818200EF75F0 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5066FEE227C818200EF75F0 /* DetailTableViewCell.swift */; };
 		A5B76C68227B69250082AF49 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B76C67227B69250082AF49 /* String.swift */; };
 		A5B76C6A227B694E0082AF49 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B76C69227B694E0082AF49 /* Double.swift */; };
@@ -30,8 +35,25 @@
 		A5F275F822778FB500E5D139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F275F722778FB500E5D139 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4B8C397C2296BFB2005AF377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F275BF22778EED00E5D139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F275C622778EED00E5D139;
+			remoteInfo = TesteSantander;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0C51F7E71C0A78DF5980B1BE /* Pods-TesteSantander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.release.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.release.xcconfig"; sourceTree = "<group>"; };
+		4B8C39772296BFB2005AF377 /* TesteSantanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteSantanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8C39792296BFB2005AF377 /* TesteSantanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteSantanderTests.swift; sourceTree = "<group>"; };
+		4B8C397B2296BFB2005AF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8C398E2296C188005AF377 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		4B8C398F2296C188005AF377 /* LoginInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorTests.swift; sourceTree = "<group>"; };
+		4B8C39902296C188005AF377 /* LoginWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorkerTests.swift; sourceTree = "<group>"; };
+		4B8C39912296C188005AF377 /* LoginPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTests.swift; sourceTree = "<group>"; };
 		5CB9EDD7AF954834D2A6D977 /* Pods_TesteSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC9037EDF1FA5AF71999087 /* Pods-TesteSantander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.debug.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.debug.xcconfig"; sourceTree = "<group>"; };
 		A5066FEE227C818200EF75F0 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
@@ -59,6 +81,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B8C39742296BFB2005AF377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5F275C422778EED00E5D139 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,6 +106,27 @@
 				0C51F7E71C0A78DF5980B1BE /* Pods-TesteSantander.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B8C39782296BFB2005AF377 /* TesteSantanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C398D2296C17B005AF377 /* Login */,
+				4B8C39792296BFB2005AF377 /* TesteSantanderTests.swift */,
+				4B8C397B2296BFB2005AF377 /* Info.plist */,
+			);
+			path = TesteSantanderTests;
+			sourceTree = "<group>";
+		};
+		4B8C398D2296C17B005AF377 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C398E2296C188005AF377 /* LoginViewControllerTests.swift */,
+				4B8C398F2296C188005AF377 /* LoginInteractorTests.swift */,
+				4B8C39902296C188005AF377 /* LoginWorkerTests.swift */,
+				4B8C39912296C188005AF377 /* LoginPresenterTests.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		9B1E9D8DB3E543C93268F38B /* Frameworks */ = {
@@ -116,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				A5F275C922778EED00E5D139 /* TesteSantander */,
+				4B8C39782296BFB2005AF377 /* TesteSantanderTests */,
 				A5F275C822778EED00E5D139 /* Products */,
 				054B1E0DB29FFE20C106F002 /* Pods */,
 				9B1E9D8DB3E543C93268F38B /* Frameworks */,
@@ -126,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				A5F275C722778EED00E5D139 /* TesteSantander.app */,
+				4B8C39772296BFB2005AF377 /* TesteSantanderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +236,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4B8C39762296BFB2005AF377 /* TesteSantanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8C39802296BFB2005AF377 /* Build configuration list for PBXNativeTarget "TesteSantanderTests" */;
+			buildPhases = (
+				4B8C39732296BFB2005AF377 /* Sources */,
+				4B8C39742296BFB2005AF377 /* Frameworks */,
+				4B8C39752296BFB2005AF377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8C397D2296BFB2005AF377 /* PBXTargetDependency */,
+			);
+			name = TesteSantanderTests;
+			productName = TesteSantanderTests;
+			productReference = 4B8C39772296BFB2005AF377 /* TesteSantanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A5F275C622778EED00E5D139 /* TesteSantander */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5F275D922778EEF00E5D139 /* Build configuration list for PBXNativeTarget "TesteSantander" */;
@@ -209,10 +279,14 @@
 		A5F275BF22778EED00E5D139 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Rodrigo Martins";
 				TargetAttributes = {
+					4B8C39762296BFB2005AF377 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A5F275C622778EED00E5D139;
+					};
 					A5F275C622778EED00E5D139 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -232,11 +306,19 @@
 			projectRoot = "";
 			targets = (
 				A5F275C622778EED00E5D139 /* TesteSantander */,
+				4B8C39762296BFB2005AF377 /* TesteSantanderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4B8C39752296BFB2005AF377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5F275C522778EED00E5D139 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,15 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TesteSantander-checkManifestLockResult.txt",
 			);
@@ -277,15 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TesteSantander/Pods-TesteSantander-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
@@ -297,6 +371,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B8C39732296BFB2005AF377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8C39922296C188005AF377 /* LoginViewControllerTests.swift in Sources */,
+				4B8C39932296C188005AF377 /* LoginInteractorTests.swift in Sources */,
+				4B8C397A2296BFB2005AF377 /* TesteSantanderTests.swift in Sources */,
+				4B8C39942296C188005AF377 /* LoginWorkerTests.swift in Sources */,
+				4B8C39952296C188005AF377 /* LoginPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5F275C322778EED00E5D139 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +409,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4B8C397D2296BFB2005AF377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F275C622778EED00E5D139 /* TesteSantander */;
+			targetProxy = 4B8C397C2296BFB2005AF377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		A5F275D322778EEF00E5D139 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -335,6 +429,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4B8C397E2296BFB2005AF377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TesteSantanderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TesteSantanderTests.TesteSantanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSantander.app/TesteSantander";
+			};
+			name = Debug;
+		};
+		4B8C397F2296BFB2005AF377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TesteSantanderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TesteSantanderTests.TesteSantanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSantander.app/TesteSantander";
+			};
+			name = Release;
+		};
 		A5F275D722778EEF00E5D139 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,6 +629,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B8C39802296BFB2005AF377 /* Build configuration list for PBXNativeTarget "TesteSantanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8C397E2296BFB2005AF377 /* Debug */,
+				4B8C397F2296BFB2005AF377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5F275C222778EED00E5D139 /* Build configuration list for PBXProject "TesteSantander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
